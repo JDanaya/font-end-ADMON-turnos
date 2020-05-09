@@ -1,0 +1,170 @@
+.grandf{
+    background-image: url(https://picsum.photos/1200/700?blur=4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.father{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6)
+    
+}
+.fill{
+    min-height: 100%;
+    height: 100%;
+}
+.box1{
+    height: 100%;
+
+}
+
+.txtbl{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10%;
+    font-size: 45px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.textTop{
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25%;
+    margin-left: 12%;
+    font-size: 35px;
+    color:rgb(255, 255, 255);
+}
+.textDown{
+    color: rgb(230, 230, 230);
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    margin-left: 12%;
+    padding-right: 12%;
+}
+.frm{
+    margin-top: 6%;
+    margin-left: 12%;
+    margin-right: 20%;
+}
+
+.btnEmail{
+    height: 40px;
+}
+.btnPassword{
+    height: 40px;
+}
+
+.leftButtonl{
+    color: rgb(100,133,212);
+    margin-top: 10%;
+    padding-top:9px ;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.textDownAcc{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 8%;
+    font-size: 15px;
+    margin-left: 12%;
+    padding-right: 12%;
+    margin-bottom: 23%;
+    
+}
+a{
+    cursor: pointer;
+}
+.txtPassword{
+    font-family: 'Roboto', sans-serif;
+}
+.txtEmail{
+    font-family: 'Roboto', sans-serif;
+}
+.itsa{
+    width: 120px;
+    padding-top: 35%;
+}
+
+/** Estilos registro **/
+.arrow{
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+.title{
+    font-size: 22px;
+    padding-left: 15px;
+}
+
+.textTopr{
+    margin-top: 21%;
+    margin-left: 12%;
+    font-size: 35px;
+    color:rgb(255, 255, 255);
+}
+
+.leftButtonR{
+    color: rgb(100,133,212);
+    margin-top: 10%;
+    padding-top:9px ;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 21%;
+}
+
+/** queries **/
+@media (max-width: 992px) {
+
+    .txtb1{
+        width: 100%;
+    }
+    .box2{
+        padding-left: 5%;
+            height: 618px;
+      
+    }
+
+    @media (max-width: 771px), (min-width: 771px) {
+        .txtb1{
+            width: 100%;
+        }
+        .box2{
+            padding-left: 5%;
+                height: 618px;
+          
+        }
+
+    }
+    @media (max-width: 710px), (min-width: 710px) {
+        .txtb1{
+            width: 100%;
+        }
+        .box2{
+            padding-left: 5%;
+                height: 618px;
+          
+        }
+
+    }
+    @media (max-width: 575px){
+            
+        .box1{
+           display: none;
+          
+        }
+
+    }
+  }

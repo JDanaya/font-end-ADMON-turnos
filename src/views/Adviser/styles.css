@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background:#D5E0F6;
+    height:100vh;
+}
+.wrap{
+    width: 100%;
+    border-radius: 5%;
+}
+.txtCategory{
+    font-size: 15pt;
+}
+h4{
+    padding: 4% 0 4% 0;
+    cursor: pointer;
+}
+b{
+    cursor: pointer;
+}
+.category{
+    
+    padding: 0 2% 0% 2%;
+}
+
+.people{
+    padding: 0% 2% 10% 2%;
+}
+
+.sec1{
+    height: 300px;
+}
+.sec1, p{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 2%;
+}
+.sec2{
+    height: 300px;
+}
+.sec3{
+    height: 300px;
+}
+.sec4{
+    height: 300px;
+}hr{
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #D5E0F6;
+}
+.topctext{
+    font-size: 9pt;
+}
+.txtup{
+    font-size: 10pt;
+}
+
+.buttom1{
+    background: #1F295A;
+    margin-left: 6%;
+    padding: 1% 6% 1% 6%;
+}
